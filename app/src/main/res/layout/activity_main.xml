@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.pjs.daystarter.MainActivity"
+    android:background="#161616"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:layout_marginTop="110dp"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/logo"/>
+
+    <ImageView
+        android:layout_marginTop="120dp"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/loadingIv"/>
+    <TextView
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DB에서 데이터를 가져오고 있습니다..."
+        android:textColor="#ffffff"
+        android:layout_gravity="center_horizontal"/>
+
+</LinearLayout>
